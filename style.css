@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: linear-gradient(to bottom, #ffffff, #70cfff); /* Градиент от оранжевого к розовому */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Добавляем тень для отделения от фона */
+}
+
+
+
+header button{
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+
+header button:hover{
+    background-color: #2ecc71; /* Цвет кнопки при наведении */
+    transform: scale(1.1); /* Увеличение кнопки */
+}
+
+.textheader{
+    padding-right: 100px;
+    
+}
+
+.container_1{
+    display: flex;
+    font-weight: 750;
+    font-size: 40px;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+}
+
+.container_1 a{
+    color: rgb(71, 95, 255);
+    text-decoration: none;
+}
+
+.tovar{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-top: 75px;
+    margin-left: 500px;
+    gap: 10px;
+}
+
+.tovar2{
+    display: flex;
+    width: 250px;
+    margin-top: 10px;
+    height: 261.7px;
+    margin-left: 500px;
+    gap: 10px;
+}
+
+
+
+.tovar img{
+    width: 450px; /* Задайте начальную ширину изображения */
+    transition: transform 0.3s ease; /* Переход для плавной анимации */
+}
+.tovar img:hover{
+    transform: scale(1.1); /* Увеличение размера изображения */ 
+}
+
+.tovar2 img{
+    width: 450px; /* Задайте начальную ширину изображения */
+    transition: transform 0.3s ease; /* Переход для плавной анимации */
+}
+.tovar2 img:hover{
+    transform: scale(1.1); /* Увеличение размера изображения */ 
+}
+
+.predlosheniy{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center ;
+    margin-top: 25px;
+}
+
+
+.predlosheniy img{
+    height: 200px;
+    width: 200px;
+}
+
+.predlosheniy button{
+    transition: transform 0.3s ease;
+}
+
+.predlosheniy button:hover{
+    transform: scale(1.1);
+}
+
+.predlosheniy{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center ;
+    margin-top: 25px;
+}
+
+.predlosheniy2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center ;
+    margin-top: 25px;
+    
+}
+
+
+.predlosheniy2 img{
+    height: 200px;
+    width: 200px;
+}
+
+.predlosheniy2 button{
+    transition: transform 0.3s ease;
+}
+
+.predlosheniy2 button:hover{
+    transform: scale(1.1);
+}
+
+button {
+    border: none; 
+    outline: none; 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s ease; 
+    background-color: #3964ff;
+    
+}
+
+button:hover {
+    background-color: #0022ff; 
+   
+}
+
+button:focus {
+    outline: none; 
+    box-shadow: 0 0 0 2px #80bdff; 
+}
+
+.predlosheniy3{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center ;
+    margin-top: 25px;
+    
+}
+
+
+.predlosheniy3 img{
+    height: 200px;
+    width: 200px;
+}
+
+.predlosheniy3 button{
+    transition: transform 0.3s ease;
+}
+
+.predlosheniy3 button:hover{
+    transform: scale(1.1);
+}
+
+button h2{
+    color: rgb(255, 255, 255);
+}
+
+.support{
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    width: 60%; /* Ширина таблицы */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Тень для таблицы */
+    background-color: white;
+    padding: 25px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    margin: 35px;
+
+}
+
+
+.support h3{
+    padding-top: 20px;
+}
+
+.support button{
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.support button:hover{
+    background-color: #ff0000; /* Цвет кнопки при наведении */
+    transform: scale(1.1); /* Увеличение кнопки */
+}
+
+.garant{
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    width: 60%; /* Ширина таблицы */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Тень для таблицы */
+    background-color: white;
+    padding: 25px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    margin: 35px;
+}
+
+.garant p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.gramota h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ff2f00;
+    font-weight: 800;
+}
+
+.massage{
+    color: #ff0000;
+}
+
+.basket{
+    border-collapse: collapse; 
+    width: 60%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    background-color: white;
+    padding: 25px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    margin: 35px;
+}
+
+.basket img{
+    width: 150px;
+    height: 200px;
+    width: 300px; 
+    height: auto; 
+    transition: transform 0.3s ease, filter 0.3s ease;
+    padding-left: 35px;
+}
+
+.basket img:hover{
+    transform: scale(1.1); /* Увеличивает изображение при наведении */
+    filter: brightness(1.1); /* Увеличивает яркость изображения при наведении */
+}
+
+.basket button{
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 560px;
+    
+}
+
+.basket button:hover{
+    background-color: #2ecc71; /* Цвет кнопки при наведении */
+    transform: scale(1.1); /* Увеличение кнопки */
+}
+
+
